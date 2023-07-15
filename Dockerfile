@@ -1,5 +1,5 @@
-# Use the OpenJDK 11 image as the base image
-FROM openjdk:11
+# Use the OpenJDK 17 image as the base image
+FROM openjdk:17
 
 # Create a new app directory
 RUN mkdir /provAPI
